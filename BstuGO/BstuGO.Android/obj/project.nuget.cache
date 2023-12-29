@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JKUqLrU/cy+VBB8D36DoleqQDUwGyWfAxC/7o6DyE/uPuxLu3utEPOQoS0cwomjFSXItO9zsOZW5zBp1Tvd5gQ==",
+  "dgSpecHash": "T6PWYrCi/y5dvSRnD8gjKxQ7+OUHk3rW91A75QJt8EFqzAyTaMWrIO2r/nZqKeycIdzJ8l0nJHqU1x5B6MYT7Q==",
   "success": true,
   "projectFilePath": "D:\\BstuGo\\BstuGO\\BstuGO\\BstuGO.Android\\BstuGO.Android.csproj",
   "expectedPackageFiles": [
@@ -134,7 +134,8 @@
     "C:\\Users\\Xiaomi\\.nuget\\packages\\xamarin.googleplayservices.measurement.sdk\\119.0.0\\xamarin.googleplayservices.measurement.sdk.119.0.0.nupkg.sha512",
     "C:\\Users\\Xiaomi\\.nuget\\packages\\xamarin.googleplayservices.measurement.sdk.api\\119.0.0\\xamarin.googleplayservices.measurement.sdk.api.119.0.0.nupkg.sha512",
     "C:\\Users\\Xiaomi\\.nuget\\packages\\xamarin.googleplayservices.stats\\117.0.1\\xamarin.googleplayservices.stats.117.0.1.nupkg.sha512",
-    "C:\\Users\\Xiaomi\\.nuget\\packages\\xamarin.googleplayservices.tasks\\117.2.1\\xamarin.googleplayservices.tasks.117.2.1.nupkg.sha512"
+    "C:\\Users\\Xiaomi\\.nuget\\packages\\xamarin.googleplayservices.tasks\\117.2.1\\xamarin.googleplayservices.tasks.117.2.1.nupkg.sha512",
+    "C:\\Users\\Xiaomi\\.nuget\\packages\\xamarin.yandexmaps.android\\1.0.0\\xamarin.yandexmaps.android.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

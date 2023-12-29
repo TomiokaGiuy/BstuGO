@@ -2566,3 +2566,18 @@ com.google.android.gms.tasks.SuccessContinuation;com.google.android.gms.tasks.Su
 Android.Gms.Extensions.AwaitableTaskCompleteListener`1, Xamarin.GooglePlayServices.Tasks;crc6495d4f5d63cc5c882.AwaitableTaskCompleteListener_1
 Android.Gms.Extensions.AwaitableTaskCompleteListener`1;crc6495d4f5d63cc5c882.AwaitableTaskCompleteListener_1
 android.gms.extensions.AwaitableTaskCompleteListener_1;crc6495d4f5d63cc5c882.AwaitableTaskCompleteListener_1
+RU.Yandex.Yandexmapkit.Map.IGeoCodeListenerImplementor, YandexMaps.Xamarin.Android;mono.ru.yandex.yandexmapkit.map.GeoCodeListenerImplementor
+RU.Yandex.Yandexmapkit.Map.IGeoCodeListenerImplementor;mono.ru.yandex.yandexmapkit.map.GeoCodeListenerImplementor
+mono.ru.yandex.yandexmapkit.map.GeoCodeListenerImplementor;mono.ru.yandex.yandexmapkit.map.GeoCodeListenerImplementor
+RU.Yandex.Yandexmapkit.Map.IOnMapListenerImplementor, YandexMaps.Xamarin.Android;mono.ru.yandex.yandexmapkit.map.OnMapListenerImplementor
+RU.Yandex.Yandexmapkit.Map.IOnMapListenerImplementor;mono.ru.yandex.yandexmapkit.map.OnMapListenerImplementor
+mono.ru.yandex.yandexmapkit.map.OnMapListenerImplementor;mono.ru.yandex.yandexmapkit.map.OnMapListenerImplementor
+RU.Yandex.Yandexmapkit.Overlay.Location.IOnMyLocationListenerImplementor, YandexMaps.Xamarin.Android;mono.ru.yandex.yandexmapkit.overlay.location.OnMyLocationListenerImplementor
+RU.Yandex.Yandexmapkit.Overlay.Location.IOnMyLocationListenerImplementor;mono.ru.yandex.yandexmapkit.overlay.location.OnMyLocationListenerImplementor
+mono.ru.yandex.yandexmapkit.overlay.location.OnMyLocationListenerImplementor;mono.ru.yandex.yandexmapkit.overlay.location.OnMyLocationListenerImplementor
+RU.Yandex.Yandexmapkit.Overlay.Balloon.IOnBalloonListenerImplementor, YandexMaps.Xamarin.Android;mono.ru.yandex.yandexmapkit.overlay.balloon.OnBalloonListenerImplementor
+RU.Yandex.Yandexmapkit.Overlay.Balloon.IOnBalloonListenerImplementor;mono.ru.yandex.yandexmapkit.overlay.balloon.OnBalloonListenerImplementor
+mono.ru.yandex.yandexmapkit.overlay.balloon.OnBalloonListenerImplementor;mono.ru.yandex.yandexmapkit.overlay.balloon.OnBalloonListenerImplementor
+RU.Yandex.Core.IPauseResumeListenerImplementor, YandexMaps.Xamarin.Android;mono.ru.yandex.core.PauseResumeListenerImplementor
+RU.Yandex.Core.IPauseResumeListenerImplementor;mono.ru.yandex.core.PauseResumeListenerImplementor
+mono.ru.yandex.core.PauseResumeListenerImplementor;mono.ru.yandex.core.PauseResumeListenerImplementor

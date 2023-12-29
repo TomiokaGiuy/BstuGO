@@ -16666,6 +16666,99 @@ namespace BstuGO.Droid
 			// aapt resource value: 0x7F070090
 			public const int tooltip_frame_light = 2131165328;
 			
+			// aapt resource value: 0x7F070091
+			public const int ymk_balloon_black = 2131165329;
+			
+			// aapt resource value: 0x7F070092
+			public const int ymk_balloon_tail_black = 2131165330;
+			
+			// aapt resource value: 0x7F070093
+			public const int ymk_balloon_text_color = 2131165331;
+			
+			// aapt resource value: 0x7F070094
+			public const int ymk_empty_image = 2131165332;
+			
+			// aapt resource value: 0x7F070095
+			public const int ymk_find_me_drawable = 2131165333;
+			
+			// aapt resource value: 0x7F070096
+			public const int ymk_no_map_image = 2131165334;
+			
+			// aapt resource value: 0x7F070097
+			public const int ymk_scale = 2131165335;
+			
+			// aapt resource value: 0x7F070098
+			public const int ymk_sgrayvga = 2131165336;
+			
+			// aapt resource value: 0x7F070099
+			public const int ymk_sgreenvga = 2131165337;
+			
+			// aapt resource value: 0x7F07009A
+			public const int ymk_sredvga = 2131165338;
+			
+			// aapt resource value: 0x7F07009B
+			public const int ymk_stricolorvga = 2131165339;
+			
+			// aapt resource value: 0x7F07009C
+			public const int ymk_syellowvga = 2131165340;
+			
+			// aapt resource value: 0x7F07009D
+			public const int ymk_tlight_loading = 2131165341;
+			
+			// aapt resource value: 0x7F07009E
+			public const int ymk_tlight_no_level_active = 2131165342;
+			
+			// aapt resource value: 0x7F07009F
+			public const int ymk_tlight_no_level_active_pressed = 2131165343;
+			
+			// aapt resource value: 0x7F0700A0
+			public const int ymk_tlight_no_level_inactive = 2131165344;
+			
+			// aapt resource value: 0x7F0700A1
+			public const int ymk_tlight_no_level_inactive_pressed = 2131165345;
+			
+			// aapt resource value: 0x7F0700A2
+			public const int ymk_tlight_no_level_loading_1 = 2131165346;
+			
+			// aapt resource value: 0x7F0700A3
+			public const int ymk_tlight_no_level_loading_2 = 2131165347;
+			
+			// aapt resource value: 0x7F0700A4
+			public const int ymk_tlight_no_level_loading_3 = 2131165348;
+			
+			// aapt resource value: 0x7F0700A5
+			public const int ymk_user_location_gps = 2131165349;
+			
+			// aapt resource value: 0x7F0700A6
+			public const int ymk_user_location_lbs = 2131165350;
+			
+			// aapt resource value: 0x7F0700A7
+			public const int ymk_where_am_i = 2131165351;
+			
+			// aapt resource value: 0x7F0700A8
+			public const int ymk_where_am_i_pressed = 2131165352;
+			
+			// aapt resource value: 0x7F0700A9
+			public const int ymk_ya_logo = 2131165353;
+			
+			// aapt resource value: 0x7F0700AA
+			public const int ymk_zoom_minus = 2131165354;
+			
+			// aapt resource value: 0x7F0700AB
+			public const int ymk_zoom_minus_drawable = 2131165355;
+			
+			// aapt resource value: 0x7F0700AC
+			public const int ymk_zoom_minus_pressed = 2131165356;
+			
+			// aapt resource value: 0x7F0700AD
+			public const int ymk_zoom_plus = 2131165357;
+			
+			// aapt resource value: 0x7F0700AE
+			public const int ymk_zoom_plus_drawable = 2131165358;
+			
+			// aapt resource value: 0x7F0700AF
+			public const int ymk_zoom_plus_pressed = 2131165359;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -18162,7 +18255,31 @@ namespace BstuGO.Droid
 			public const int x_right = 2131231213;
 			
 			// aapt resource value: 0x7F0801EE
-			public const int zero_corner_chip = 2131231214;
+			public const int ymk_balloon_text_view = 2131231214;
+			
+			// aapt resource value: 0x7F0801EF
+			public const int ymk_find_me = 2131231215;
+			
+			// aapt resource value: 0x7F0801F0
+			public const int ymk_scale = 2131231216;
+			
+			// aapt resource value: 0x7F0801F1
+			public const int ymk_screen_buttons_bottom = 2131231217;
+			
+			// aapt resource value: 0x7F0801F2
+			public const int ymk_screen_buttons_top = 2131231218;
+			
+			// aapt resource value: 0x7F0801F3
+			public const int ymk_semaphore = 2131231219;
+			
+			// aapt resource value: 0x7F0801F4
+			public const int ymk_zoom_in = 2131231220;
+			
+			// aapt resource value: 0x7F0801F5
+			public const int ymk_zoom_out = 2131231221;
+			
+			// aapt resource value: 0x7F0801F6
+			public const int zero_corner_chip = 2131231222;
 			
 			static Id()
 			{
@@ -18773,6 +18890,12 @@ namespace BstuGO.Droid
 			// aapt resource value: 0x7F0B0094
 			public const int Toolbar = 2131427476;
 			
+			// aapt resource value: 0x7F0B0095
+			public const int ymk_balloon_default_layout = 2131427477;
+			
+			// aapt resource value: 0x7F0B0096
+			public const int ymk_screen_buttons_layout = 2131427478;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -18972,214 +19095,256 @@ namespace BstuGO.Droid
 			public const int item_view_role_description = 2131623984;
 			
 			// aapt resource value: 0x7F0E0031
-			public const int material_clock_display_divider = 2131623985;
+			public const int mapkit_build_date = 2131623985;
 			
 			// aapt resource value: 0x7F0E0032
-			public const int material_clock_toggle_content_description = 2131623986;
+			public const int mapkit_build_number = 2131623986;
 			
 			// aapt resource value: 0x7F0E0033
-			public const int material_hour_selection = 2131623987;
+			public const int mapkit_build_year = 2131623987;
 			
 			// aapt resource value: 0x7F0E0034
-			public const int material_hour_suffix = 2131623988;
+			public const int mapkit_clid_number = 2131623988;
 			
 			// aapt resource value: 0x7F0E0035
-			public const int material_minute_selection = 2131623989;
+			public const int mapkit_enable_debug = 2131623989;
 			
 			// aapt resource value: 0x7F0E0036
-			public const int material_minute_suffix = 2131623990;
+			public const int mapkit_startup_url = 2131623990;
 			
 			// aapt resource value: 0x7F0E0037
-			public const int material_motion_easing_accelerated = 2131623991;
+			public const int mapkit_upload_brunch = 2131623991;
 			
 			// aapt resource value: 0x7F0E0038
-			public const int material_motion_easing_decelerated = 2131623992;
+			public const int mapkit_version_app = 2131623992;
 			
 			// aapt resource value: 0x7F0E0039
-			public const int material_motion_easing_emphasized = 2131623993;
+			public const int mapkit_version_number = 2131623993;
 			
 			// aapt resource value: 0x7F0E003A
-			public const int material_motion_easing_linear = 2131623994;
+			public const int material_clock_display_divider = 2131623994;
 			
 			// aapt resource value: 0x7F0E003B
-			public const int material_motion_easing_standard = 2131623995;
+			public const int material_clock_toggle_content_description = 2131623995;
 			
 			// aapt resource value: 0x7F0E003C
-			public const int material_slider_range_end = 2131623996;
+			public const int material_hour_selection = 2131623996;
 			
 			// aapt resource value: 0x7F0E003D
-			public const int material_slider_range_start = 2131623997;
+			public const int material_hour_suffix = 2131623997;
 			
 			// aapt resource value: 0x7F0E003E
-			public const int material_timepicker_am = 2131623998;
+			public const int material_minute_selection = 2131623998;
 			
 			// aapt resource value: 0x7F0E003F
-			public const int material_timepicker_clock_mode_description = 2131623999;
+			public const int material_minute_suffix = 2131623999;
 			
 			// aapt resource value: 0x7F0E0040
-			public const int material_timepicker_hour = 2131624000;
+			public const int material_motion_easing_accelerated = 2131624000;
 			
 			// aapt resource value: 0x7F0E0041
-			public const int material_timepicker_minute = 2131624001;
+			public const int material_motion_easing_decelerated = 2131624001;
 			
 			// aapt resource value: 0x7F0E0042
-			public const int material_timepicker_pm = 2131624002;
+			public const int material_motion_easing_emphasized = 2131624002;
 			
 			// aapt resource value: 0x7F0E0043
-			public const int material_timepicker_select_time = 2131624003;
+			public const int material_motion_easing_linear = 2131624003;
 			
 			// aapt resource value: 0x7F0E0044
-			public const int material_timepicker_text_input_mode_description = 2131624004;
+			public const int material_motion_easing_standard = 2131624004;
 			
 			// aapt resource value: 0x7F0E0045
-			public const int mtrl_badge_numberless_content_description = 2131624005;
+			public const int material_slider_range_end = 2131624005;
 			
 			// aapt resource value: 0x7F0E0046
-			public const int mtrl_chip_close_icon_content_description = 2131624006;
+			public const int material_slider_range_start = 2131624006;
 			
 			// aapt resource value: 0x7F0E0047
-			public const int mtrl_exceed_max_badge_number_content_description = 2131624007;
+			public const int material_timepicker_am = 2131624007;
 			
 			// aapt resource value: 0x7F0E0048
-			public const int mtrl_exceed_max_badge_number_suffix = 2131624008;
+			public const int material_timepicker_clock_mode_description = 2131624008;
 			
 			// aapt resource value: 0x7F0E0049
-			public const int mtrl_picker_a11y_next_month = 2131624009;
+			public const int material_timepicker_hour = 2131624009;
 			
 			// aapt resource value: 0x7F0E004A
-			public const int mtrl_picker_a11y_prev_month = 2131624010;
+			public const int material_timepicker_minute = 2131624010;
 			
 			// aapt resource value: 0x7F0E004B
-			public const int mtrl_picker_announce_current_selection = 2131624011;
+			public const int material_timepicker_pm = 2131624011;
 			
 			// aapt resource value: 0x7F0E004C
-			public const int mtrl_picker_cancel = 2131624012;
+			public const int material_timepicker_select_time = 2131624012;
 			
 			// aapt resource value: 0x7F0E004D
-			public const int mtrl_picker_confirm = 2131624013;
+			public const int material_timepicker_text_input_mode_description = 2131624013;
 			
 			// aapt resource value: 0x7F0E004E
-			public const int mtrl_picker_date_header_selected = 2131624014;
+			public const int mtrl_badge_numberless_content_description = 2131624014;
 			
 			// aapt resource value: 0x7F0E004F
-			public const int mtrl_picker_date_header_title = 2131624015;
+			public const int mtrl_chip_close_icon_content_description = 2131624015;
 			
 			// aapt resource value: 0x7F0E0050
-			public const int mtrl_picker_date_header_unselected = 2131624016;
+			public const int mtrl_exceed_max_badge_number_content_description = 2131624016;
 			
 			// aapt resource value: 0x7F0E0051
-			public const int mtrl_picker_day_of_week_column_header = 2131624017;
+			public const int mtrl_exceed_max_badge_number_suffix = 2131624017;
 			
 			// aapt resource value: 0x7F0E0052
-			public const int mtrl_picker_invalid_format = 2131624018;
+			public const int mtrl_picker_a11y_next_month = 2131624018;
 			
 			// aapt resource value: 0x7F0E0053
-			public const int mtrl_picker_invalid_format_example = 2131624019;
+			public const int mtrl_picker_a11y_prev_month = 2131624019;
 			
 			// aapt resource value: 0x7F0E0054
-			public const int mtrl_picker_invalid_format_use = 2131624020;
+			public const int mtrl_picker_announce_current_selection = 2131624020;
 			
 			// aapt resource value: 0x7F0E0055
-			public const int mtrl_picker_invalid_range = 2131624021;
+			public const int mtrl_picker_cancel = 2131624021;
 			
 			// aapt resource value: 0x7F0E0056
-			public const int mtrl_picker_navigate_to_year_description = 2131624022;
+			public const int mtrl_picker_confirm = 2131624022;
 			
 			// aapt resource value: 0x7F0E0057
-			public const int mtrl_picker_out_of_range = 2131624023;
+			public const int mtrl_picker_date_header_selected = 2131624023;
 			
 			// aapt resource value: 0x7F0E0058
-			public const int mtrl_picker_range_header_only_end_selected = 2131624024;
+			public const int mtrl_picker_date_header_title = 2131624024;
 			
 			// aapt resource value: 0x7F0E0059
-			public const int mtrl_picker_range_header_only_start_selected = 2131624025;
+			public const int mtrl_picker_date_header_unselected = 2131624025;
 			
 			// aapt resource value: 0x7F0E005A
-			public const int mtrl_picker_range_header_selected = 2131624026;
+			public const int mtrl_picker_day_of_week_column_header = 2131624026;
 			
 			// aapt resource value: 0x7F0E005B
-			public const int mtrl_picker_range_header_title = 2131624027;
+			public const int mtrl_picker_invalid_format = 2131624027;
 			
 			// aapt resource value: 0x7F0E005C
-			public const int mtrl_picker_range_header_unselected = 2131624028;
+			public const int mtrl_picker_invalid_format_example = 2131624028;
 			
 			// aapt resource value: 0x7F0E005D
-			public const int mtrl_picker_save = 2131624029;
+			public const int mtrl_picker_invalid_format_use = 2131624029;
 			
 			// aapt resource value: 0x7F0E005E
-			public const int mtrl_picker_text_input_date_hint = 2131624030;
+			public const int mtrl_picker_invalid_range = 2131624030;
 			
 			// aapt resource value: 0x7F0E005F
-			public const int mtrl_picker_text_input_date_range_end_hint = 2131624031;
+			public const int mtrl_picker_navigate_to_year_description = 2131624031;
 			
 			// aapt resource value: 0x7F0E0060
-			public const int mtrl_picker_text_input_date_range_start_hint = 2131624032;
+			public const int mtrl_picker_out_of_range = 2131624032;
 			
 			// aapt resource value: 0x7F0E0061
-			public const int mtrl_picker_text_input_day_abbr = 2131624033;
+			public const int mtrl_picker_range_header_only_end_selected = 2131624033;
 			
 			// aapt resource value: 0x7F0E0062
-			public const int mtrl_picker_text_input_month_abbr = 2131624034;
+			public const int mtrl_picker_range_header_only_start_selected = 2131624034;
 			
 			// aapt resource value: 0x7F0E0063
-			public const int mtrl_picker_text_input_year_abbr = 2131624035;
+			public const int mtrl_picker_range_header_selected = 2131624035;
 			
 			// aapt resource value: 0x7F0E0064
-			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624036;
+			public const int mtrl_picker_range_header_title = 2131624036;
 			
 			// aapt resource value: 0x7F0E0065
-			public const int mtrl_picker_toggle_to_day_selection = 2131624037;
+			public const int mtrl_picker_range_header_unselected = 2131624037;
 			
 			// aapt resource value: 0x7F0E0066
-			public const int mtrl_picker_toggle_to_text_input_mode = 2131624038;
+			public const int mtrl_picker_save = 2131624038;
 			
 			// aapt resource value: 0x7F0E0067
-			public const int mtrl_picker_toggle_to_year_selection = 2131624039;
+			public const int mtrl_picker_text_input_date_hint = 2131624039;
 			
 			// aapt resource value: 0x7F0E0068
-			public const int nav_app_bar_navigate_up_description = 2131624040;
+			public const int mtrl_picker_text_input_date_range_end_hint = 2131624040;
 			
 			// aapt resource value: 0x7F0E0069
-			public const int nav_app_bar_open_drawer_description = 2131624041;
+			public const int mtrl_picker_text_input_date_range_start_hint = 2131624041;
 			
 			// aapt resource value: 0x7F0E006A
-			public const int not_set = 2131624042;
+			public const int mtrl_picker_text_input_day_abbr = 2131624042;
 			
 			// aapt resource value: 0x7F0E006B
-			public const int overflow_tab_title = 2131624043;
+			public const int mtrl_picker_text_input_month_abbr = 2131624043;
 			
 			// aapt resource value: 0x7F0E006C
-			public const int password_toggle_content_description = 2131624044;
+			public const int mtrl_picker_text_input_year_abbr = 2131624044;
 			
 			// aapt resource value: 0x7F0E006D
-			public const int path_password_eye = 2131624045;
+			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624045;
 			
 			// aapt resource value: 0x7F0E006E
-			public const int path_password_eye_mask_strike_through = 2131624046;
+			public const int mtrl_picker_toggle_to_day_selection = 2131624046;
 			
 			// aapt resource value: 0x7F0E006F
-			public const int path_password_eye_mask_visible = 2131624047;
+			public const int mtrl_picker_toggle_to_text_input_mode = 2131624047;
 			
 			// aapt resource value: 0x7F0E0070
-			public const int path_password_strike_through = 2131624048;
+			public const int mtrl_picker_toggle_to_year_selection = 2131624048;
 			
 			// aapt resource value: 0x7F0E0071
-			public const int preference_copied = 2131624049;
+			public const int nav_app_bar_navigate_up_description = 2131624049;
 			
 			// aapt resource value: 0x7F0E0072
-			public const int search_menu_title = 2131624050;
+			public const int nav_app_bar_open_drawer_description = 2131624050;
 			
 			// aapt resource value: 0x7F0E0073
-			public const int status_bar_notification_info_overflow = 2131624051;
+			public const int not_set = 2131624051;
 			
 			// aapt resource value: 0x7F0E0074
-			public const int summary_collapsed_preference_list = 2131624052;
+			public const int overflow_tab_title = 2131624052;
 			
 			// aapt resource value: 0x7F0E0075
-			public const int v7_preference_off = 2131624053;
+			public const int password_toggle_content_description = 2131624053;
 			
 			// aapt resource value: 0x7F0E0076
-			public const int v7_preference_on = 2131624054;
+			public const int path_password_eye = 2131624054;
+			
+			// aapt resource value: 0x7F0E0077
+			public const int path_password_eye_mask_strike_through = 2131624055;
+			
+			// aapt resource value: 0x7F0E0078
+			public const int path_password_eye_mask_visible = 2131624056;
+			
+			// aapt resource value: 0x7F0E0079
+			public const int path_password_strike_through = 2131624057;
+			
+			// aapt resource value: 0x7F0E007A
+			public const int preference_copied = 2131624058;
+			
+			// aapt resource value: 0x7F0E007B
+			public const int search_menu_title = 2131624059;
+			
+			// aapt resource value: 0x7F0E007C
+			public const int status_bar_notification_info_overflow = 2131624060;
+			
+			// aapt resource value: 0x7F0E007D
+			public const int summary_collapsed_preference_list = 2131624061;
+			
+			// aapt resource value: 0x7F0E007E
+			public const int v7_preference_off = 2131624062;
+			
+			// aapt resource value: 0x7F0E007F
+			public const int v7_preference_on = 2131624063;
+			
+			// aapt resource value: 0x7F0E0080
+			public const int ymk_findme_not_found = 2131624064;
+			
+			// aapt resource value: 0x7F0E0081
+			public const int ymk_kilometers_short = 2131624065;
+			
+			// aapt resource value: 0x7F0E0082
+			public const int ymk_lang = 2131624066;
+			
+			// aapt resource value: 0x7F0E0083
+			public const int ymk_meters_short = 2131624067;
+			
+			// aapt resource value: 0x7F0E0084
+			public const int ymk_my_place = 2131624068;
 			
 			static String()
 			{
@@ -29650,6 +29815,9 @@ namespace BstuGO.Droid
 			
 			// aapt resource value: 0x7F110006
 			public const int xamarin_essentials_fileprovider_file_paths = 2131820550;
+			
+			// aapt resource value: 0x7F110007
+			public const int ymk_map_layers = 2131820551;
 			
 			static Xml()
 			{

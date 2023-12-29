@@ -88,6 +88,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.GooglePlayServices.Measurement.Sdk.dll",
 		"Xamarin.GooglePlayServices.Stats.dll",
 		"Xamarin.GooglePlayServices.Tasks.dll",
+		"YandexMaps.Xamarin.Android.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

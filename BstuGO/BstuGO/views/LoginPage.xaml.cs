@@ -20,6 +20,7 @@ namespace BstuGO.views
 		{
 			InitializeComponent ();
 			bool HasKey = Preferences.ContainsKey("token");
+		    //Preferences.Remove("token"); для проверки регистрации и логина
 			if (HasKey)
 			{
 				string token = Preferences.Get("token","");
@@ -34,20 +35,51 @@ namespace BstuGO.views
 
         private async void BtnSignIN_Clicked(object sender, EventArgs e)
         {
-			string email = TxtEmail.Text;
-			string password = TxtPaswword.Text;
-			string token = await services.SignIn(email, password);
-			if (!string.IsNullOrEmpty(token))
-			{
-				Preferences.Set("token", token);
-				Preferences.Set("email",email);
 
-				await Navigation.PushModalAsync(new MainPage());
-			}
-			else
+			try
 			{
-				await DisplayAlert("Sign in", "Failed","OK");
+                string email = UsernameEntry.Text;
+                string password = PasswordEntry.Text;
+                string token = await services.SignIn(email, password);
+                if (!string.IsNullOrEmpty(token))
+                {
+                    Preferences.Set("token", token);
+                    Preferences.Set("email", email);
+
+                    await Navigation.PushModalAsync(new MainPage());
+                }
+                else
+                {
+                    await DisplayAlert("Sign in", "Failed", "OK");
+                }
+            }
+            catch(Exception ex)
+			{
+				if (ex.Message.Contains("INVALID_EMAIL"))
+				{
+					await DisplayAlert("Авторизация", "Неправильный email (email@mail.ru)", "ok");
+				}else if (ex.Message.Contains("MISSING_PASSWORD"))
+				{
+					await DisplayAlert("Авторизация", "Введите пароль", "ok");
+				}
+                else if (ex.Message.Contains("EMAIL_NOT_FOUND"))
+                {
+                    await DisplayAlert("Авторизация", "Данный email не найден", "ok");
+                }
+                else if (ex.Message.Contains("INVALID_LOGIN_CREDENTIALS"))
+                {
+                    await DisplayAlert("Авторизация", "Неверный логин либо пароль", "ok");
+                }
+                else
+				{
+                    await DisplayAlert("Авторизация", ex.Message, "ok");
+                }
 			}
+			
+        }
+        private async void AddRegisterPage(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new RegisterPage());
         }
     }
 }

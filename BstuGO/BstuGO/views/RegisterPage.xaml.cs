@@ -22,19 +22,50 @@ namespace BstuGO.views
 
         private async void btnReg_Clicked(object sender, EventArgs e)
         {
-			string email = TxtEmail.Text;
-			string password = TxtPswrd.Text;
-			bool isSave = await services.Register(email, password);
-			if (isSave)
+			try
 			{
-				await DisplayAlert("Register user", "Reg compl", "ok");
-			}
-			else
+                string email = UserEmailEntry.Text;
+                string password = PasswordEntry.Text;
+                string replyPassword = repeatPasswordEntry.Text;
+                string name = UserNamelEntry.Text;
+
+
+                if (!replyPassword.Equals(password))
+                {
+                    await DisplayAlert("Регистрация", "Повторный пароль не совпадает с основным", "OK");
+                }
+                else
+                {
+                    bool isSave = await services.Register(email, password);
+                    if (isSave)
+                    {
+
+                        await DisplayAlert("Регистрация", "Регистрация завершена успешно", "ok");
+                    }
+                }
+                
+            }
+            catch(Exception ex)
 			{
-                await DisplayAlert("Register user", "Reg failed", "ok");
+                if (ex.Message.Contains("EMAIL_EXISTS"))
+                {
+                    await DisplayAlert("Регистрация", "Данный email уже зарегистрован", "OK");
+                }else if (ex.Message.Contains("WEAK_PASSWORD"))
+                {
+                    await DisplayAlert("Регистрация", "Пароль должен быть больше или равен 6 символам", "OK");
+                }
+                else
+                {
+                    await DisplayAlert("Регистрация", ex.Message, "OK");
+                }
+               
             }
         }
 
-	
+        private async void Label_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new LoginPage());
+        }
+
     }
 }
