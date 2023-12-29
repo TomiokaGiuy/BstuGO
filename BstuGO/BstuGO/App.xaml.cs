@@ -1,6 +1,8 @@
-﻿using System;
+﻿using BstuGO.views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+
 
 namespace BstuGO
 {
@@ -10,7 +12,7 @@ namespace BstuGO
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart()
