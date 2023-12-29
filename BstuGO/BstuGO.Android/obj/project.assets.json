@@ -3408,24 +3408,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Xiaomi\\.nuget\\packages\\": {},
+    "C:\\Users\\danii\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BstuGo\\BstuGO\\BstuGO\\BstuGO.Android\\BstuGO.Android.csproj",
+      "projectUniqueName": "S:\\BstuGO\\BstuGO\\BstuGO.Android\\BstuGO.Android.csproj",
       "projectName": "BstuGO.Android",
-      "projectPath": "D:\\BstuGo\\BstuGO\\BstuGO\\BstuGO.Android\\BstuGO.Android.csproj",
-      "packagesPath": "C:\\Users\\Xiaomi\\.nuget\\packages\\",
-      "outputPath": "D:\\BstuGo\\BstuGO\\BstuGO\\BstuGO.Android\\obj\\",
+      "projectPath": "S:\\BstuGO\\BstuGO\\BstuGO.Android\\BstuGO.Android.csproj",
+      "packagesPath": "C:\\Users\\danii\\.nuget\\packages\\",
+      "outputPath": "S:\\BstuGO\\BstuGO\\BstuGO.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Xiaomi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\danii\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3439,8 +3439,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "D:\\BstuGo\\BstuGO\\BstuGO\\BstuGO\\BstuGO.csproj": {
-              "projectPath": "D:\\BstuGo\\BstuGO\\BstuGO\\BstuGO\\BstuGO.csproj"
+            "S:\\BstuGO\\BstuGO\\BstuGO\\BstuGO.csproj": {
+              "projectPath": "S:\\BstuGO\\BstuGO\\BstuGO\\BstuGO.csproj"
             }
           }
         }
