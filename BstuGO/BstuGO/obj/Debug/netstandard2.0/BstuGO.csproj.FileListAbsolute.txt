@@ -15,3 +15,6 @@ D:\BstuGo\BstuGO\BstuGO\BstuGO\obj\Debug\netstandard2.0\BstuGO.pdb
 D:\BstuGo\BstuGO\BstuGO\BstuGO\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 D:\BstuGo\BstuGO\BstuGO\BstuGO\obj\Debug\netstandard2.0\NewsPage.xaml.g.cs
 D:\BstuGo\BstuGO\BstuGO\BstuGO\obj\Debug\netstandard2.0\Schedule.xaml.g.cs
+D:\BstuGo\BstuGO\BstuGO\BstuGO\obj\Debug\netstandard2.0\views\AuthPage.xaml.g.cs
+D:\BstuGo\BstuGO\BstuGO\BstuGO\obj\Debug\netstandard2.0\views\LoginPage.xaml.g.cs
+D:\BstuGo\BstuGO\BstuGO\BstuGO\obj\Debug\netstandard2.0\views\RegisterPage.xaml.g.cs

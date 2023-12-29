@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BstuGO.views;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -13,6 +14,7 @@ namespace BstuGO
         public MainPage()
         {
             InitializeComponent();
+
         }
 
         private async void OnButtonClicked(object sender, System.EventArgs e)
@@ -22,7 +24,12 @@ namespace BstuGO
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Schedule());
+            await Navigation.PushAsync(new AuthPage());
+        }
+
+        private void ToolbarItem_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 }

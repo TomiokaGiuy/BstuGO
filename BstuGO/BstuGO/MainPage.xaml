@@ -2,8 +2,16 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BstuGO.MainPage">
-
+    <ContentPage.ToolbarItems>
+        <ToolbarItem 
+                 IconImageSource="icon.png"
+                 Order="Primary"
+                 Priority="0" 
+                 />
+    </ContentPage.ToolbarItems>
     <StackLayout>
+        
+        
         <Button Text = "Новости" FontSize="Large" BorderWidth="1"
         HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
         Clicked="OnButtonClicked" />

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BstuGO.views.LoginPage">
+    <ContentPage.Content>
+        <StackLayout Padding="15"
+                     VerticalOptions="Center">
+            <Label Text="Sign IN"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   FontSize="Large"/>
+            <Entry Placeholder="Enter ur email" 
+                   x:Name="TxtEmail"></Entry>
+            <Entry Placeholder="Enter password"
+                   IsPassword="True"
+                   x:Name ="TxtPaswword"/>
+            <Button Text="Sign IN"
+                    x:Name="BtnSignIN"
+                    Clicked="BtnSignIN_Clicked">
+                
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

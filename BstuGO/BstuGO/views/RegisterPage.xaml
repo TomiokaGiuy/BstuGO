@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BstuGO.views.RegisterPage">
+    <ContentPage.Content>
+        <StackLayout Padding="15" VerticalOptions="Center">
+            <Label Text="sign up"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   FontSize="Large"/>
+            <Entry Placeholder="Email"
+                   x:Name="TxtEmail"></Entry>
+            <Entry Placeholder="password"
+                   IsPassword="True"
+                   x:Name ="TxtPswrd"></Entry>
+            <Button Text=" reg" x:Name="btnReg" Clicked="btnReg_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
