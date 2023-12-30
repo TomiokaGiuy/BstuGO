@@ -9,6 +9,7 @@ using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+
 namespace BstuGO.views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
@@ -19,14 +20,16 @@ namespace BstuGO.views
 		public LoginPage ()
 		{
 			InitializeComponent ();
+            
 			bool HasKey = Preferences.ContainsKey("token");
 		    //Preferences.Remove("token"); для проверки регистрации и логина
 			if (HasKey)
 			{
 				string token = Preferences.Get("token","");
 				if (!string.IsNullOrEmpty(token))
+                    
 				{
-					Navigation.PushModalAsync(new MainPage());
+					Navigation.PushModalAsync( new NavigationPage(new MainPage()));
 				}
 				
 			}
