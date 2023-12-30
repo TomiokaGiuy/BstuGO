@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BstuGO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff83f5a821df0ff7a9c1455d32ad154722029354")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("BstuGO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BstuGO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

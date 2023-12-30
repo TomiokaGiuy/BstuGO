@@ -1276,3 +1276,5 @@ S:\BstuGO\BstuGO\BstuGO.Android\obj\Debug\130\stamp\_ConvertResourcesCases.stamp
 S:\BstuGO\BstuGO\BstuGO.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 S:\BstuGO\BstuGO\BstuGO.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 S:\BstuGO\BstuGO\BstuGO.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+D:\BstuGo\BstuGO\BstuGO\BstuGO.Android\obj\Debug\130\res\drawable\logobstu.png
+D:\BstuGo\BstuGO\BstuGO\BstuGO.Android\obj\Debug\130\res\drawable\profile.png
