@@ -16555,6 +16555,9 @@ namespace BstuGO.Droid
 			// aapt resource value: 0x7F07006A
 			public const int ic_mtrl_chip_close_circle = 2131165290;
 			
+			// aapt resource value: 0x7F07006B
+			public const int logobstu = 2131165291;
+			
 			// aapt resource value: 0x7F07006C
 			public const int material_cursor_drawable = 2131165292;
 			
@@ -16658,106 +16661,10 @@ namespace BstuGO.Droid
 			public const int preference_list_divider_material = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int test_custom_background = 2131165326;
+			public const int tooltip_frame_dark = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int tooltip_frame_dark = 2131165327;
-			
-			// aapt resource value: 0x7F070090
-			public const int tooltip_frame_light = 2131165328;
-			
-			// aapt resource value: 0x7F070091
-			public const int ymk_balloon_black = 2131165329;
-			
-			// aapt resource value: 0x7F070092
-			public const int ymk_balloon_tail_black = 2131165330;
-			
-			// aapt resource value: 0x7F070093
-			public const int ymk_balloon_text_color = 2131165331;
-			
-			// aapt resource value: 0x7F070094
-			public const int ymk_empty_image = 2131165332;
-			
-			// aapt resource value: 0x7F070095
-			public const int ymk_find_me_drawable = 2131165333;
-			
-			// aapt resource value: 0x7F070096
-			public const int ymk_no_map_image = 2131165334;
-			
-			// aapt resource value: 0x7F070097
-			public const int ymk_scale = 2131165335;
-			
-			// aapt resource value: 0x7F070098
-			public const int ymk_sgrayvga = 2131165336;
-			
-			// aapt resource value: 0x7F070099
-			public const int ymk_sgreenvga = 2131165337;
-			
-			// aapt resource value: 0x7F07009A
-			public const int ymk_sredvga = 2131165338;
-			
-			// aapt resource value: 0x7F07009B
-			public const int ymk_stricolorvga = 2131165339;
-			
-			// aapt resource value: 0x7F07009C
-			public const int ymk_syellowvga = 2131165340;
-			
-			// aapt resource value: 0x7F07009D
-			public const int ymk_tlight_loading = 2131165341;
-			
-			// aapt resource value: 0x7F07009E
-			public const int ymk_tlight_no_level_active = 2131165342;
-			
-			// aapt resource value: 0x7F07009F
-			public const int ymk_tlight_no_level_active_pressed = 2131165343;
-			
-			// aapt resource value: 0x7F0700A0
-			public const int ymk_tlight_no_level_inactive = 2131165344;
-			
-			// aapt resource value: 0x7F0700A1
-			public const int ymk_tlight_no_level_inactive_pressed = 2131165345;
-			
-			// aapt resource value: 0x7F0700A2
-			public const int ymk_tlight_no_level_loading_1 = 2131165346;
-			
-			// aapt resource value: 0x7F0700A3
-			public const int ymk_tlight_no_level_loading_2 = 2131165347;
-			
-			// aapt resource value: 0x7F0700A4
-			public const int ymk_tlight_no_level_loading_3 = 2131165348;
-			
-			// aapt resource value: 0x7F0700A5
-			public const int ymk_user_location_gps = 2131165349;
-			
-			// aapt resource value: 0x7F0700A6
-			public const int ymk_user_location_lbs = 2131165350;
-			
-			// aapt resource value: 0x7F0700A7
-			public const int ymk_where_am_i = 2131165351;
-			
-			// aapt resource value: 0x7F0700A8
-			public const int ymk_where_am_i_pressed = 2131165352;
-			
-			// aapt resource value: 0x7F0700A9
-			public const int ymk_ya_logo = 2131165353;
-			
-			// aapt resource value: 0x7F0700AA
-			public const int ymk_zoom_minus = 2131165354;
-			
-			// aapt resource value: 0x7F0700AB
-			public const int ymk_zoom_minus_drawable = 2131165355;
-			
-			// aapt resource value: 0x7F0700AC
-			public const int ymk_zoom_minus_pressed = 2131165356;
-			
-			// aapt resource value: 0x7F0700AD
-			public const int ymk_zoom_plus = 2131165357;
-			
-			// aapt resource value: 0x7F0700AE
-			public const int ymk_zoom_plus_drawable = 2131165358;
-			
-			// aapt resource value: 0x7F0700AF
-			public const int ymk_zoom_plus_pressed = 2131165359;
+			public const int tooltip_frame_light = 2131165327;
 			
 			static Drawable()
 			{
