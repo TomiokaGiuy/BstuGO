@@ -1,6 +1,0 @@
-<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:background="@drawable/ymk_balloon_black" xmlns:android="http://schemas.android.com/apk/res/android"><TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/ymk_balloon_text_view" android:gravity="fill_horizontal" android:ellipsize="end" android:singleLine="false" android:textSize="18dip" android:text="    " android:textColor="@drawable/ymk_balloon_text_color" xmlns:android="http://schemas.android.com/apk/res/android" /><!--
-    android:maxLines="10"
-    android:paddingLeft="1dip"
-    android:paddingRight="1dip"
-    android:paddingTop="1dip"
---></LinearLayout><!-- From: file:/Users/mksaint13/Documents/work/yandexmapkit/res/layout/ymk_balloon_default_layout.xml -->
