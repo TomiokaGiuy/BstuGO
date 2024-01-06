@@ -49,7 +49,7 @@ namespace BstuGO.views
                     Preferences.Set("token", token);
                     Preferences.Set("email", email);
 
-                    await Navigation.PushModalAsync(new MainPage());
+                    await Navigation.PushModalAsync(new NavigationPage(new MainPage()));
                 }
                 else
                 {
