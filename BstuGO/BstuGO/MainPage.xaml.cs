@@ -36,5 +36,10 @@ namespace BstuGO
         {
             await Navigation.PushAsync(new NewsPage());
         }
+
+        private async void Maps_Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Maps());
+        }
     }
 }
