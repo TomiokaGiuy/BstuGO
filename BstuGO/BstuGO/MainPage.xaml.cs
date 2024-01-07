@@ -24,7 +24,7 @@ namespace BstuGO
 
         private async void Schedule_Class_Button(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new AuthPage());
+            await Navigation.PushAsync(new Schedule());
         }
 
         private void ToolbarItem_Clicked(object sender, EventArgs e)
