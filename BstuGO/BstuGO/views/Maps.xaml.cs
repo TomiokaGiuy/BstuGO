@@ -21,7 +21,6 @@ namespace BstuGO.views
             webView.Source = urlSource;
             this.Content = webView;
         }
-        public interface IBaseUrl { string Get(); }
 
     }
 }

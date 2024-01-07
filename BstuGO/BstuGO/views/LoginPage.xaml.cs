@@ -29,7 +29,7 @@ namespace BstuGO.views
 				if (!string.IsNullOrEmpty(token))
                     
 				{
-					Navigation.PushModalAsync( new NavigationPage(new MainPage()));
+					Navigation.PushModalAsync(new MainTabbedPage());
 				}
 				
 			}
