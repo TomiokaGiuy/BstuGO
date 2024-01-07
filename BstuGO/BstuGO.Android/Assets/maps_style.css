@@ -16,7 +16,7 @@ body {
     position: absolute;
     padding: 5px 10px;
     font-size: 15px;
-    background-color: #3498db;
+    background-color: #a9a6a6e8;
     color: #ffffff;
     border: none;
     border-radius: 8px;
@@ -53,3 +53,8 @@ body {
     top: 190px;
     left: 10px;
 }
+
+.active {
+    background-color: #3498db;
+}
+

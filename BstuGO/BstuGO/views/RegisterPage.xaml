@@ -5,11 +5,11 @@
 
     <NavigationPage.TitleView>
         <StackLayout Orientation="Horizontal">
-            <Frame BackgroundColor="#FFFFFF" Padding="5, 2, 5, 2" CornerRadius="5" VerticalOptions="CenterAndExpand" HeightRequest="40" HorizontalOptions="StartAndExpand">
+            <Frame BackgroundColor="#FFFFFF" Padding="3, 1, 3, 1" CornerRadius="5" VerticalOptions="CenterAndExpand" HeightRequest="35" HorizontalOptions="StartAndExpand">
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="logobstu.png" HeightRequest="50" WidthRequest="50" />
+                    <Image Source="logobstu.png" HeightRequest="30" WidthRequest="30" />
 
-                    <Label Text="BstuGO" TextColor="#2196f3" FontSize="35" FontAttributes="Bold" VerticalOptions="CenterAndExpand" />
+                    <Label Text="BstuGO" TextColor="#2196f3" FontSize="25" FontAttributes="Bold" VerticalOptions="CenterAndExpand" />
                 </StackLayout>
             </Frame>
         </StackLayout>
@@ -83,16 +83,15 @@
                 FontAttributes="Bold" 
                 Margin="100,20,100,0" 
                 Clicked="btnReg_Clicked"/>
-            
-        <Label Text="У меня уже есть аккаунт. Войти..."
-               TextDecorations="Underline"
-               HorizontalOptions="Center"
-               TextColor="gray"
-               Margin="0,20,0,0">
-            <Label.GestureRecognizers>
-                <TapGestureRecognizer Tapped="Label_Tapped" />
-            </Label.GestureRecognizers>
-        </Label>
-            
+
+        <StackLayout Orientation="Vertical" Margin="0,200,0,0" HorizontalOptions="Center" >
+            <Label Text="У меня уже есть аккаунт." TextColor="Gray"  FontSize="16" FontAttributes="Bold" HorizontalOptions="Center"/>
+            <Label Text="Войти..." TextDecorations="Underline" HorizontalOptions="Center" FontSize="16" TextColor="#2196f3">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Label_Tapped" />
+                </Label.GestureRecognizers>
+            </Label>
+        </StackLayout>
+
     </StackLayout>
 </ContentPage>
