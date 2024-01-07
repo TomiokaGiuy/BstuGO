@@ -50,17 +50,10 @@
                     CornerRadius="13"
                     Margin="100,20,100,0"/>
         </StackLayout>
-        
-        <StackLayout Orientation="Horizontal" Margin="0,40,0,0" HorizontalOptions="Center" >
-            <Label Text="Еще нет аккаунта ?"
-                   TextColor="Gray"
-                   FontSize="16"
-                   FontAttributes="Bold"/>
 
-            <Label Text="Создать аккаунт"
-                   TextDecorations="Underline"
-                   FontSize="16"
-                   TextColor="blue">
+        <StackLayout Orientation="Vertical" Margin="0,380,0,0" HorizontalOptions="Center" >
+            <Label Text="Еще нет аккаунта ?" TextColor="Gray"  FontSize="16" FontAttributes="Bold" HorizontalOptions="Center" />
+            <Label Text="Создать аккаунт" TextDecorations="Underline" FontSize="16" TextColor="#2196f3" HorizontalOptions="Center">
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer Tapped="AddRegisterPage" />
                 </Label.GestureRecognizers>

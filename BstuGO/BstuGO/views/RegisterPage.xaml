@@ -83,16 +83,15 @@
                 FontAttributes="Bold" 
                 Margin="100,20,100,0" 
                 Clicked="btnReg_Clicked"/>
-            
-        <Label Text="У меня уже есть аккаунт. Войти..."
-               TextDecorations="Underline"
-               HorizontalOptions="Center"
-               TextColor="gray"
-               Margin="0,20,0,0">
-            <Label.GestureRecognizers>
-                <TapGestureRecognizer Tapped="Label_Tapped" />
-            </Label.GestureRecognizers>
-        </Label>
-            
+
+        <StackLayout Orientation="Vertical" Margin="0,200,0,0" HorizontalOptions="Center" >
+            <Label Text="У меня уже есть аккаунт." TextColor="Gray"  FontSize="16" FontAttributes="Bold" HorizontalOptions="Center"/>
+            <Label Text="Войти..." TextDecorations="Underline" HorizontalOptions="Center" FontSize="16" TextColor="#2196f3">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Label_Tapped" />
+                </Label.GestureRecognizers>
+            </Label>
+        </StackLayout>
+
     </StackLayout>
 </ContentPage>
