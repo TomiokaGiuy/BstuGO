@@ -38,7 +38,7 @@ const categoriesData = {
             lat: 52.09564364240153,
             lon: 23.756744938574816,
             name: 'Буфет 2-й Корпус',
-            icon: 'https://cdn-icons-png.flaticon.com/128/1725/1725736.png',
+            icon: 'https://cdn-icons-png.flaticon.com/128/5589/5589708.png',
             description: '<p>Местонахождение: возле гардероба на 1-ом этаже 2-го корпуса</p>',
             work_time: '',
             photo: '',
@@ -71,6 +71,14 @@ const categoriesData = {
     ]
 };
 
+var categoriesIsVisible = {
+    coffeepoints: false,
+    canteens: false,
+    buffets: false,
+    printing_points: false,
+    deans: false
+};
+
 function init() {
     const myMap = new ymaps.Map("map", {
         center: [52.095648, 23.758507],
@@ -87,36 +95,88 @@ function init() {
 
 
     function showCategory(category) {
-        myMap.geoObjects.removeAll();
+        
+        if (categoriesIsVisible[category]) {
+            categoriesData[category].forEach((item) => {
+                myMap.geoObjects.each((geoObject) => {
+                    if (geoObject.geometry.getCoordinates()[0] === item.lat && geoObject.geometry.getCoordinates()[1] === item.lon) {
+                        myMap.geoObjects.remove(geoObject);
+                    }
+                });
+            });
+            categoriesIsVisible[category] = false;
+        } else {
+            categoriesData[category].forEach((item) => {
+                const placemark = new ymaps.Placemark([item.lat, item.lon], {
+                    balloonContentHeader: item.name,
+                    balloonContentBody: item.photo,
+                    balloonContentFooter: item.description+item.work_time,
+                    hintContent: item.hint
+                },
+                {
+                    iconLayout: 'default#image',
+                    iconImageHref: item.icon,
+                    iconImageSize: [25, 25],
+                    iconImageOffset: [0, 0]
+                }
+                );
 
-        categoriesData[category].forEach((item) => {
-            const placemark = new ymaps.Placemark([item.lat, item.lon], {
-                balloonContentHeader: item.name,
-                balloonContentBody: item.photo,
-                balloonContentFooter: item.description+item.work_time,
-                hintContent: item.hint
-            },
-            {
-                iconLayout: 'default#image',
-                iconImageHref: item.icon,
-                iconImageSize: [25, 25],
-                iconImageOffset: [0, 0]
-            }
-            );
-
-            myMap.geoObjects.add(placemark);
-        });
-
-        activeCategory = category;
+                myMap.geoObjects.add(placemark);
+            });
+            categoriesIsVisible[category] = true;
+        }
     }
 
     const categoryButtons = document.querySelectorAll('.category_button');
     categoryButtons.forEach((button) => {
         button.addEventListener('click', (e) => {
             const category = e.currentTarget.dataset.category;
-            showCategory(category);
+            toggleCategory(button, category);
         });
     });
+
+    function toggleCategory(button, category) {
+        const isActive = button.classList.toggle('active');
+        showCategory(category);
+    }
+
+
+
+  
+
+
+    // Создаем многоугольник, используя вспомогательный класс Polygon.
+    var myPolygon = new ymaps.Polygon([
+        // Указываем координаты вершин многоугольника.
+        // Координаты вершин внешнего контура.
+        [
+            [52.096532007389754,23.75738827545522],
+            [52.09663525480333,23.757903930138536],
+            [52.09646881985409,23.757991772484054],
+            [52.09641760897496,23.757732939314014],
+            [52.09636639803663,23.757476788352808],
+            [52.096532007389754,23.75738827545522]
+        ],
+        // Координаты вершин внутреннего контура.
+        [
+            
+        ]
+    ], {
+        // Описываем свойства геообъекта.
+        // Содержимое балуна.
+        hintContent: "Актовый зал",
+        balloonContent: "Актовый зал"
+    }, {
+        // Задаем опции геообъекта.
+        // Цвет заливки.
+        fillColor: '#3498db55',
+        // Ширина обводки.
+        strokeWidth: 2,
+        strokeColor: '#2980b9'
+    });
+
+    // Добавляем многоугольник на карту.
+    myMap.geoObjects.add(myPolygon);
 
 };
 
