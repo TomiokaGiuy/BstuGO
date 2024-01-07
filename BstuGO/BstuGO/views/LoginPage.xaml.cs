@@ -22,7 +22,7 @@ namespace BstuGO.views
 			InitializeComponent ();
             
 			bool HasKey = Preferences.ContainsKey("token");
-		    ///sPreferences.Remove("token"); //для проверки регистрации и логина
+		    ///Preferences.Remove("token"); //для проверки регистрации и логина
 			if (HasKey)
 			{
 				string token = Preferences.Get("token","");
