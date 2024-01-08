@@ -15,34 +15,30 @@ namespace BstuGO.views
         public MainTabbedPage ()
         {
             InitializeComponent();
-            
-            
+
             NavigationPage mapsPage = new NavigationPage(new Maps());
             NavigationPage schedulesPage = new NavigationPage(new Schedule());
             NavigationPage newsPage = new NavigationPage(new NewsPage());
             NavigationPage profilesPage = new NavigationPage(new ProfilePage());
-            ToolbarItem item = new ToolbarItem
-            {
-                Text = "BSTU",
-                IconImageSource = ImageSource.FromFile("logobstu.png"),
-                
-                Order = ToolbarItemOrder.Primary,
-                Priority = 0
-            };
 
             // "this" refers to a Page object
-            
 
             mapsPage.Title = "Карты";
+            mapsPage.IconImageSource = "logomaps.png";
+
             schedulesPage.Title = "Расписание";
+            schedulesPage.IconImageSource = "logoschedule.png";
+
             newsPage.Title = "Новости";
+            newsPage.IconImageSource = "logonews.png";
+
             profilesPage.Title = "Личный кабинет";
+            profilesPage.IconImageSource = "profile.png";
 
             Children.Add(schedulesPage);
             Children.Add(newsPage);
             Children.Add(mapsPage);
             Children.Add(profilesPage);
-            this.ToolbarItems.Add(item);
 
 
         }
