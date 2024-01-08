@@ -11,16 +11,24 @@ using Firebase.Auth;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Runtime.CompilerServices;
+using Firebase.Storage;
+using Xamarin.Essentials;
+using Firebase.Auth.Providers;
 
 namespace BstuGO.services
 {
     internal class DBServices
     {
         FirebaseClient client;
+        
         FirebaseAuthProvider authProvider;
+        FirebaseStorage firebaseStorage = new FirebaseStorage("bstugo-2878e.appspot.com"); 
         string WebApiKey = "AIzaSyD1zRE3Zsu6RA3s-aVZqnvoXBxWv_pSifA";
+        
         public DBServices()
         {
+           
+            
             client = new FirebaseClient("https://bstugo-2878e-default-rtdb.europe-west1.firebasedatabase.app/");
             authProvider = new FirebaseAuthProvider(new FirebaseConfig(WebApiKey));
         }
@@ -39,9 +47,11 @@ namespace BstuGO.services
         public async Task<string> SignIn(string email, string password)
         {
             var token = await authProvider.SignInWithEmailAndPasswordAsync(email, password);
+           
             if (!string.IsNullOrEmpty(token.FirebaseToken))
             {
                 return token.FirebaseToken;
+                
             }
             return "";
         }
@@ -55,6 +65,11 @@ namespace BstuGO.services
             };
             await client.Child("Users").PostAsync(user);
             
+        }
+
+        public async void deleteUser(string token)
+        {
+            await authProvider.DeleteUserAsync(token);
         }
 
         
@@ -76,6 +91,25 @@ namespace BstuGO.services
            
             return student;
         }
-        
+
+
+        public async Task<string> GetFile(string fileName)
+        {
+            return await firebaseStorage
+                .Child(fileName)
+                .GetDownloadUrlAsync();
+        }
+
+        public async Task ChangePassword(string token,string newPassword)
+        {
+            
+            await authProvider.ChangeUserPassword(token, newPassword);
+        }
+
+        public async Task ChangeEmail(string newEmail)
+        {
+            await authProvider.ChangeUserEmail(Preferences.Get("token",""),newEmail);
+        }
+
     }
 }
