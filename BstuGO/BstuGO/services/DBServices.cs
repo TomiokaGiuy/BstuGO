@@ -13,7 +13,7 @@ using System.IO;
 using System.Runtime.CompilerServices;
 using Firebase.Storage;
 using Xamarin.Essentials;
-using Firebase.Auth.Providers;
+//using Firebase.Auth.Providers;
 
 namespace BstuGO.services
 {

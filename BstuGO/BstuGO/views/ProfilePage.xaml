@@ -22,12 +22,12 @@
                 <RowDefinition Height="150"></RowDefinition>
             </Grid.RowDefinitions>
            
-            <Button Text="Безопасность"
+            <!--<Button Text="Безопасность"
                     CornerRadius="100"
                      Margin="20,50,20,0"
                     Clicked="Security_Clicked"
                     FontSize="Large"
-                    Grid.Row="0"></Button>
+                    Grid.Row="0"></Button>-->
             <Button Text="Выйти из аккаунта"
                     CornerRadius="100"
                      Margin="20,50,20,0"
