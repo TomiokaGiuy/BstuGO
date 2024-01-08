@@ -4,6 +4,7 @@
     <title>Карта</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <script src="https://api-maps.yandex.ru/2.1/?apikey=437d7131-6c4c-454b-a77e-133fd209b898&lang=ru_RU"></script>
+    <script src="https://yastatic.net/s3/mapsapi-jslibs/polylabeler/1.0.2/polylabel.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="maps_style.css">
   </head>
 
@@ -17,6 +18,15 @@
       <button class="category_button print_btn" data-category="printing_points">Пункты печати</button>
       <button class="category_button dean_btn" data-category="deans">Деканаты</button>
     </div>
+    <div class="toggle-container">
+      <div class="label-container">
+          <label class="switch">
+              <input type="checkbox" id="togglePolygons">
+              <span class="slider round"></span>
+          </label>
+          <span class="toggle-label">Отобразить корпуса</span>
+      </div>
+  </div>
     <script src="script.js"></script>
   </body>
 </html>
