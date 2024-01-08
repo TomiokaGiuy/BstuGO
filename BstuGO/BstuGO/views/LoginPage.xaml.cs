@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reactive.Disposables;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
@@ -29,7 +30,9 @@ namespace BstuGO.views
 				if (!string.IsNullOrEmpty(token))
                     
 				{
-					Navigation.PushModalAsync(new MainTabbedPage());
+                    
+                    Navigation.PushModalAsync(new MainTabbedPage());
+                    
 				}
 				
 			}
@@ -49,7 +52,7 @@ namespace BstuGO.views
                     Preferences.Set("token", token);
                     Preferences.Set("email", email);
 
-                    await Navigation.PushModalAsync(new NavigationPage(new MainPage()));
+                    await Navigation.PushModalAsync(new MainTabbedPage());
                 }
                 else
                 {
@@ -84,5 +87,8 @@ namespace BstuGO.views
         {
             await Navigation.PushAsync(new RegisterPage());
         }
+
+
+        
     }
 }

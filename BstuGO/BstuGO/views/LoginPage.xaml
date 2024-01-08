@@ -16,7 +16,7 @@
     </NavigationPage.TitleView>
 
     <StackLayout>
-        <StackLayout>
+        <StackLayout >
             <Label Text="Добро пожаловать" 
                    TextColor="Black"
                    HorizontalOptions="Center"

@@ -14,8 +14,33 @@
     </NavigationPage.TitleView>
     
     <ContentPage.Content>
-        <StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+            </Grid.RowDefinitions>
+           
+            <!--<Button Text="Безопасность"
+                    CornerRadius="100"
+                     Margin="20,50,20,0"
+                    Clicked="Security_Clicked"
+                    FontSize="Large"
+                    Grid.Row="0"></Button>-->
+            <Button Text="Выйти из аккаунта"
+                    CornerRadius="100"
+                     Margin="20,50,20,0"
+                    Clicked="Exit_Clicked"
+                    FontSize="Large"
+                    Grid.Row="1"></Button>
+            <Button Text="Удалить аккаунт"
+                     Margin="20,50,20,0"
+                    FontSize="Large"
+                    CornerRadius="100"
+                    Clicked="deleteAcc_Clicked"
+                    Grid.Row="2"></Button>
 
-        </StackLayout>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

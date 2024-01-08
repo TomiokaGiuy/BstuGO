@@ -15,7 +15,7 @@ namespace BstuGO.views
         public MainTabbedPage ()
         {
             InitializeComponent();
-
+            
             NavigationPage mapsPage = new NavigationPage(new Maps());
             NavigationPage schedulesPage = new NavigationPage(new Schedule());
             NavigationPage newsPage = new NavigationPage(new NewsPage());

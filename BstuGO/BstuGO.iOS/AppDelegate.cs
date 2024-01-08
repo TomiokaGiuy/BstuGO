@@ -4,7 +4,7 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
-
+using Firebase.Core;
 namespace BstuGO.iOS
 {
     // The UIApplicationDelegate for the application. This class is responsible for launching the 
@@ -24,7 +24,7 @@ namespace BstuGO.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
-
+            Firebase.Core.App.Configure();
             return base.FinishedLaunching(app, options);
         }
     }
